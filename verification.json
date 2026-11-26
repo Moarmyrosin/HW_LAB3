@@ -1,0 +1,29 @@
+{
+  "cnn": {
+    "shape": [
+      4,
+      10
+    ],
+    "synthetic_loss": 3.1400933265686035,
+    "save_load_equal": true,
+    "parameters": 94986
+  },
+  "resnet18": {
+    "shape": [
+      4,
+      10
+    ],
+    "synthetic_loss": 2.371783971786499,
+    "save_load_equal": true,
+    "parameters": 11173962
+  },
+  "se": {
+    "shape": [
+      4,
+      10
+    ],
+    "synthetic_loss": 2.4163100719451904,
+    "save_load_equal": true,
+    "parameters": 11263042
+  }
+}

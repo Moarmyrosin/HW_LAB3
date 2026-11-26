@@ -1,0 +1,17 @@
+{
+  "pdf": "D:\\学习资料 信息\\课内\\当代人工智能\\LAB3\\CIFAR10_HW3\\output\\pdf\\CIFAR10_HW3_report_5pages.pdf",
+  "pages": 5,
+  "page_limit": 5,
+  "references_included": true,
+  "page_size": "A4",
+  "body_font_pt": 10.4,
+  "all_pages_visually_reviewed": true,
+  "chinese_fonts_embedded": true,
+  "poppler_and_mupdf_render_checked": true,
+  "no_content_overflow": true,
+  "metrics_match_existing_formal_runs": true,
+  "all_markdown_image_links_exist": true,
+  "original_full_report_preserved": true,
+  "no_training_or_original_metric_changes": true,
+  "pdf_sha256": "3c2b875dbdda591656f4d6200e3704dc4a386475c42054441b069a4660141606"
+}

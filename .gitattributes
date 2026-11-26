@@ -1,0 +1,4 @@
+# 实验图表、PDF 与数组文件按二进制保存
+*.png binary
+*.pdf binary
+*.npz binary

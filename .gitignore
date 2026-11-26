@@ -1,0 +1,28 @@
+# 数据集仅保留可复现的划分索引
+/data/*
+!/data/split_42.npz
+!/data/split_cifar100_42.npz
+
+# 模型权重、临时权重
+*.pt
+*.pth
+*.ckpt
+*.pt.tmp
+
+# 环境与缓存
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+
+# 本地备份、临时渲染与课件提取全文
+/backups/
+/tmp/
+/reports/course_reference/
+
+# 在克隆目录中重新实验前归档的已发布结果
+/published_runs/
+/published_reports/

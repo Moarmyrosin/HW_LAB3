@@ -1,0 +1,70 @@
+{
+  "source": "official cifar10",
+  "dataset": "cifar10",
+  "seed": 42,
+  "train_size": 45000,
+  "validation_size": 5000,
+  "test_size": 10000,
+  "train_per_class": [
+    4500,
+    4500,
+    4500,
+    4500,
+    4500,
+    4500,
+    4500,
+    4500,
+    4500,
+    4500
+  ],
+  "validation_per_class": [
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500
+  ],
+  "test_per_class": [
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000
+  ],
+  "disjoint_and_complete": true,
+  "validation_deterministic": true,
+  "independent_transform_objects": true,
+  "split_md5": "194e08f1c1f4e5ae6c93fe58a901f620",
+  "mean": [
+    0.4914,
+    0.4822,
+    0.4465
+  ],
+  "std": [
+    0.247,
+    0.2435,
+    0.2616
+  ],
+  "classes": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ]
+}

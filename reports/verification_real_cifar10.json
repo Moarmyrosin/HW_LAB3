@@ -1,0 +1,77 @@
+{
+  "source": "official cifar10 smoke",
+  "dataset": "cifar10",
+  "device": "cuda",
+  "data_fingerprint": "194e08f1c1f4e5ae6c93fe58a901f620",
+  "results": {
+    "cnn": {
+      "output_shape": [
+        1,
+        10
+      ],
+      "resume_weights_identical": true,
+      "resume_metrics_identical": true,
+      "scheduler_scaler_early_stop_state_equal": true,
+      "reject_smoke_formal_mismatch": true,
+      "gradcam_feature_shape": [
+        1,
+        128,
+        8,
+        8
+      ],
+      "parameters": 94986,
+      "real_smoke_metrics": {
+        "accuracy": 0.1,
+        "samples": 40
+      },
+      "train_environment_preserved_after_test": true,
+      "full_training_time_verified": true
+    },
+    "resnet18": {
+      "output_shape": [
+        1,
+        10
+      ],
+      "resume_weights_identical": true,
+      "resume_metrics_identical": true,
+      "scheduler_scaler_early_stop_state_equal": true,
+      "reject_smoke_formal_mismatch": true,
+      "gradcam_feature_shape": [
+        1,
+        512,
+        4,
+        4
+      ],
+      "parameters": 11173962,
+      "real_smoke_metrics": {
+        "accuracy": 0.1,
+        "samples": 40
+      },
+      "train_environment_preserved_after_test": true,
+      "full_training_time_verified": true
+    },
+    "se": {
+      "output_shape": [
+        1,
+        10
+      ],
+      "resume_weights_identical": true,
+      "resume_metrics_identical": true,
+      "scheduler_scaler_early_stop_state_equal": true,
+      "reject_smoke_formal_mismatch": true,
+      "gradcam_feature_shape": [
+        1,
+        512,
+        4,
+        4
+      ],
+      "parameters": 11263042,
+      "real_smoke_metrics": {
+        "accuracy": 0.1,
+        "samples": 40
+      },
+      "train_environment_preserved_after_test": true,
+      "full_training_time_verified": true
+    }
+  }
+}

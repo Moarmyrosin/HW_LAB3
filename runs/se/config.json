@@ -1,0 +1,28 @@
+{
+  "dataset": "cifar10",
+  "classes": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ],
+  "model": "se",
+  "epochs": 30,
+  "batch_size": 128,
+  "seed": 42,
+  "smoke": false,
+  "amp": true,
+  "lr": 0.1,
+  "momentum": 0.9,
+  "weight_decay": 0.0005,
+  "patience": 0,
+  "num_workers": 0,
+  "data": "D:\\学习资料 信息\\课内\\当代人工智能\\LAB3\\CIFAR10_HW3\\data",
+  "data_fingerprint": "194e08f1c1f4e5ae6c93fe58a901f620"
+}

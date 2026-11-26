@@ -1,0 +1,11 @@
+{
+  "formal_models_with_consistent_results": [
+    "cnn",
+    "resnet18",
+    "se"
+  ],
+  "cifar100_real_smoke_completed": true,
+  "cifar10_audit_completed": true,
+  "cifar10_real_smoke_completed": true,
+  "generated_from_actual_records": true
+}

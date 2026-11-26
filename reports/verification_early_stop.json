@@ -1,0 +1,9 @@
+{
+  "source": "synthetic only",
+  "stale_at_interruption": 1,
+  "patience": 2,
+  "epochs_completed": 3,
+  "epochs_planned": 4,
+  "continuous_and_resumed_stop_at_same_epoch": true,
+  "weights_identical": true
+}

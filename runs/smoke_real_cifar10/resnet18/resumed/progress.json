@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "epochs_completed": 2,
+  "epochs_planned": 2,
+  "best_validation": 0.125,
+  "best_epoch": 1,
+  "training_seconds": 0.2634352000004583,
+  "run_id": "4fc035fe-f491-46d6-b170-e7781a8279ad",
+  "time_definition": "所有完整 epoch 的训练与验证耗时之和，不包含数据准备、绘图和 checkpoint 写盘"
+}

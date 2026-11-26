@@ -1,0 +1,100 @@
+{
+  "selection": "first three correct and first three wrong in fixed dataset order",
+  "precision": "float32",
+  "counts": {
+    "correct": 3,
+    "wrong": 3
+  },
+  "examples": [
+    {
+      "test_index": 0,
+      "official_test_index": 0,
+      "true": "cat",
+      "predicted": "cat",
+      "confidence": 0.9999912977218628,
+      "kind": "correct",
+      "feature_shape": [
+        1,
+        512,
+        4,
+        4
+      ],
+      "nonzero_cam": true
+    },
+    {
+      "test_index": 1,
+      "official_test_index": 1,
+      "true": "ship",
+      "predicted": "ship",
+      "confidence": 0.9998445510864258,
+      "kind": "correct",
+      "feature_shape": [
+        1,
+        512,
+        4,
+        4
+      ],
+      "nonzero_cam": true
+    },
+    {
+      "test_index": 2,
+      "official_test_index": 2,
+      "true": "ship",
+      "predicted": "ship",
+      "confidence": 0.9871886372566223,
+      "kind": "correct",
+      "feature_shape": [
+        1,
+        512,
+        4,
+        4
+      ],
+      "nonzero_cam": true
+    },
+    {
+      "test_index": 15,
+      "official_test_index": 15,
+      "true": "ship",
+      "predicted": "frog",
+      "confidence": 0.671368420124054,
+      "kind": "wrong",
+      "feature_shape": [
+        1,
+        512,
+        4,
+        4
+      ],
+      "nonzero_cam": true
+    },
+    {
+      "test_index": 25,
+      "official_test_index": 25,
+      "true": "bird",
+      "predicted": "dog",
+      "confidence": 0.6622406244277954,
+      "kind": "wrong",
+      "feature_shape": [
+        1,
+        512,
+        4,
+        4
+      ],
+      "nonzero_cam": true
+    },
+    {
+      "test_index": 35,
+      "official_test_index": 35,
+      "true": "bird",
+      "predicted": "cat",
+      "confidence": 0.8109005689620972,
+      "kind": "wrong",
+      "feature_shape": [
+        1,
+        512,
+        4,
+        4
+      ],
+      "nonzero_cam": true
+    }
+  ]
+}

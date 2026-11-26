@@ -1,0 +1,35 @@
+{
+  "formal": {
+    "cnn": {
+      "epochs": 30,
+      "samples": 10000,
+      "accuracy": 0.8049,
+      "finite_history": true,
+      "matrix_and_report_consistent": true,
+      "images_valid": true
+    },
+    "resnet18": {
+      "epochs": 30,
+      "samples": 10000,
+      "accuracy": 0.9253,
+      "finite_history": true,
+      "matrix_and_report_consistent": true,
+      "images_valid": true
+    },
+    "se": {
+      "epochs": 30,
+      "samples": 10000,
+      "accuracy": 0.9329,
+      "finite_history": true,
+      "matrix_and_report_consistent": true,
+      "images_valid": true
+    }
+  },
+  "report_links_valid": true,
+  "selected_model": "se",
+  "gradcam_cases": {
+    "correct": 3,
+    "wrong": 3
+  },
+  "no_unfinished_core_experiments": true
+}

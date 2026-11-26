@@ -1,0 +1,19 @@
+{
+  "recorded_at": "2026-11-26T12:52:17.232381+08:00",
+  "python": "3.13.2",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "torch": "2.7.1+cu118",
+  "torchvision": "0.22.1+cu118",
+  "numpy": "2.4.4",
+  "matplotlib": "3.10.1",
+  "sklearn": "1.8.0",
+  "cuda_runtime": "11.8",
+  "cudnn": 90100,
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "gpu_memory_bytes": 8585216000,
+  "deterministic_cudnn": true,
+  "tf32": false,
+  "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+  "limits": "固定种子不保证跨硬件、跨库版本逐位一致；多 worker 数据增强和 AMP 也可能产生差异。"
+}

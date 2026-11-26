@@ -1,0 +1,100 @@
+{
+  "selection": "first three correct and first three wrong in fixed dataset order",
+  "precision": "float32",
+  "counts": {
+    "correct": 3,
+    "wrong": 3
+  },
+  "examples": [
+    {
+      "test_index": 0,
+      "true": "apple",
+      "predicted": "cloud",
+      "confidence": 0.019786138087511063,
+      "kind": "wrong",
+      "feature_shape": [
+        1,
+        512,
+        4,
+        4
+      ],
+      "nonzero_cam": true,
+      "official_test_index": 9
+    },
+    {
+      "test_index": 1,
+      "true": "apple",
+      "predicted": "orange",
+      "confidence": 0.10980123281478882,
+      "kind": "wrong",
+      "feature_shape": [
+        1,
+        512,
+        4,
+        4
+      ],
+      "nonzero_cam": true,
+      "official_test_index": 113
+    },
+    {
+      "test_index": 2,
+      "true": "apple",
+      "predicted": "otter",
+      "confidence": 0.01687856949865818,
+      "kind": "wrong",
+      "feature_shape": [
+        1,
+        512,
+        4,
+        4
+      ],
+      "nonzero_cam": true,
+      "official_test_index": 226
+    },
+    {
+      "test_index": 32,
+      "true": "bicycle",
+      "predicted": "bicycle",
+      "confidence": 0.019970647990703583,
+      "kind": "correct",
+      "feature_shape": [
+        1,
+        512,
+        4,
+        4
+      ],
+      "nonzero_cam": true,
+      "official_test_index": 27
+    },
+    {
+      "test_index": 74,
+      "true": "caterpillar",
+      "predicted": "caterpillar",
+      "confidence": 0.044460076838731766,
+      "kind": "correct",
+      "feature_shape": [
+        1,
+        512,
+        4,
+        4
+      ],
+      "nonzero_cam": true,
+      "official_test_index": 178
+    },
+    {
+      "test_index": 123,
+      "true": "dolphin",
+      "predicted": "dolphin",
+      "confidence": 0.0374816432595253,
+      "kind": "correct",
+      "feature_shape": [
+        1,
+        512,
+        4,
+        4
+      ],
+      "nonzero_cam": true,
+      "official_test_index": 516
+    }
+  ]
+}

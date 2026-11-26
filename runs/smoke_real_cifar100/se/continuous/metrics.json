@@ -1,0 +1,1010 @@
+{
+  "smoke": true,
+  "source": "official cifar100",
+  "dataset": "cifar100",
+  "model": "se",
+  "run_id": "d66d31a8-9cc9-482e-8437-64bf9c18fdcc",
+  "checkpoint": "D:\\学习资料 信息\\课内\\当代人工智能\\LAB3\\CIFAR10_HW3\\runs\\smoke_real_cifar100\\se\\continuous\\best.pt",
+  "checkpoint_epoch": 2,
+  "accuracy": 0.0275,
+  "loss": 4.4747265625,
+  "samples": 400,
+  "classes": [
+    "apple",
+    "aquarium_fish",
+    "baby",
+    "bear",
+    "beaver",
+    "bed",
+    "bee",
+    "beetle",
+    "bicycle",
+    "bottle",
+    "bowl",
+    "boy",
+    "bridge",
+    "bus",
+    "butterfly",
+    "camel",
+    "can",
+    "castle",
+    "caterpillar",
+    "cattle",
+    "chair",
+    "chimpanzee",
+    "clock",
+    "cloud",
+    "cockroach",
+    "couch",
+    "crab",
+    "crocodile",
+    "cup",
+    "dinosaur",
+    "dolphin",
+    "elephant",
+    "flatfish",
+    "forest",
+    "fox",
+    "girl",
+    "hamster",
+    "house",
+    "kangaroo",
+    "keyboard",
+    "lamp",
+    "lawn_mower",
+    "leopard",
+    "lion",
+    "lizard",
+    "lobster",
+    "man",
+    "maple_tree",
+    "motorcycle",
+    "mountain",
+    "mouse",
+    "mushroom",
+    "oak_tree",
+    "orange",
+    "orchid",
+    "otter",
+    "palm_tree",
+    "pear",
+    "pickup_truck",
+    "pine_tree",
+    "plain",
+    "plate",
+    "poppy",
+    "porcupine",
+    "possum",
+    "rabbit",
+    "raccoon",
+    "ray",
+    "road",
+    "rocket",
+    "rose",
+    "sea",
+    "seal",
+    "shark",
+    "shrew",
+    "skunk",
+    "skyscraper",
+    "snail",
+    "snake",
+    "spider",
+    "squirrel",
+    "streetcar",
+    "sunflower",
+    "sweet_pepper",
+    "table",
+    "tank",
+    "telephone",
+    "television",
+    "tiger",
+    "tractor",
+    "train",
+    "trout",
+    "tulip",
+    "turtle",
+    "wardrobe",
+    "whale",
+    "willow_tree",
+    "wolf",
+    "woman",
+    "worm"
+  ],
+  "per_class_accuracy": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.25,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.25,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.25,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.75,
+    0.0,
+    0.25,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.25,
+    0.0,
+    0.5,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.25,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "report": {
+    "apple": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "aquarium_fish": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "baby": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "bear": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "beaver": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "bed": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "bee": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "beetle": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "bicycle": {
+      "precision": 0.16666666666666666,
+      "recall": 0.25,
+      "f1-score": 0.2,
+      "support": 4.0
+    },
+    "bottle": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "bowl": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "boy": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "bridge": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "bus": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "butterfly": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "camel": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "can": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "castle": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "caterpillar": {
+      "precision": 0.0625,
+      "recall": 0.25,
+      "f1-score": 0.1,
+      "support": 4.0
+    },
+    "cattle": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "chair": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "chimpanzee": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "clock": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "cloud": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "cockroach": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "couch": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "crab": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "crocodile": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "cup": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "dinosaur": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "dolphin": {
+      "precision": 0.027777777777777776,
+      "recall": 0.25,
+      "f1-score": 0.05,
+      "support": 4.0
+    },
+    "elephant": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "flatfish": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "forest": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "fox": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "girl": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "hamster": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "house": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "kangaroo": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "keyboard": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "lamp": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "lawn_mower": {
+      "precision": 0.05263157894736842,
+      "recall": 0.75,
+      "f1-score": 0.09836065573770492,
+      "support": 4.0
+    },
+    "leopard": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "lion": {
+      "precision": 0.08333333333333333,
+      "recall": 0.25,
+      "f1-score": 0.125,
+      "support": 4.0
+    },
+    "lizard": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "lobster": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "man": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "maple_tree": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "motorcycle": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "mountain": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "mouse": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "mushroom": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "oak_tree": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "orange": {
+      "precision": 0.037037037037037035,
+      "recall": 0.25,
+      "f1-score": 0.06451612903225806,
+      "support": 4.0
+    },
+    "orchid": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "otter": {
+      "precision": 0.028985507246376812,
+      "recall": 0.5,
+      "f1-score": 0.0547945205479452,
+      "support": 4.0
+    },
+    "palm_tree": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "pear": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "pickup_truck": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "pine_tree": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "plain": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "plate": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "poppy": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "porcupine": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "possum": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "rabbit": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "raccoon": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "ray": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "road": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "rocket": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "rose": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "sea": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "seal": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "shark": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "shrew": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "skunk": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "skyscraper": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "snail": {
+      "precision": 0.013888888888888888,
+      "recall": 0.25,
+      "f1-score": 0.02631578947368421,
+      "support": 4.0
+    },
+    "snake": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "spider": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "squirrel": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "streetcar": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "sunflower": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "sweet_pepper": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "table": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "tank": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "telephone": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "television": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "tiger": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "tractor": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "train": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "trout": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "tulip": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "turtle": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "wardrobe": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "whale": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "willow_tree": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "wolf": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "woman": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "worm": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "accuracy": 0.0275,
+    "macro avg": {
+      "precision": 0.004728207898974489,
+      "recall": 0.0275,
+      "f1-score": 0.007189870947915924,
+      "support": 400.0
+    },
+    "weighted avg": {
+      "precision": 0.004728207898974489,
+      "recall": 0.0275,
+      "f1-score": 0.007189870947915924,
+      "support": 400.0
+    }
+  },
+  "parameters": 11309212,
+  "best_validation": 0.0425,
+  "epochs_completed": 2,
+  "epochs_planned": 2,
+  "training_seconds": 2.6606403999994654,
+  "config": {
+    "dataset": "cifar100",
+    "classes": [
+      "apple",
+      "aquarium_fish",
+      "baby",
+      "bear",
+      "beaver",
+      "bed",
+      "bee",
+      "beetle",
+      "bicycle",
+      "bottle",
+      "bowl",
+      "boy",
+      "bridge",
+      "bus",
+      "butterfly",
+      "camel",
+      "can",
+      "castle",
+      "caterpillar",
+      "cattle",
+      "chair",
+      "chimpanzee",
+      "clock",
+      "cloud",
+      "cockroach",
+      "couch",
+      "crab",
+      "crocodile",
+      "cup",
+      "dinosaur",
+      "dolphin",
+      "elephant",
+      "flatfish",
+      "forest",
+      "fox",
+      "girl",
+      "hamster",
+      "house",
+      "kangaroo",
+      "keyboard",
+      "lamp",
+      "lawn_mower",
+      "leopard",
+      "lion",
+      "lizard",
+      "lobster",
+      "man",
+      "maple_tree",
+      "motorcycle",
+      "mountain",
+      "mouse",
+      "mushroom",
+      "oak_tree",
+      "orange",
+      "orchid",
+      "otter",
+      "palm_tree",
+      "pear",
+      "pickup_truck",
+      "pine_tree",
+      "plain",
+      "plate",
+      "poppy",
+      "porcupine",
+      "possum",
+      "rabbit",
+      "raccoon",
+      "ray",
+      "road",
+      "rocket",
+      "rose",
+      "sea",
+      "seal",
+      "shark",
+      "shrew",
+      "skunk",
+      "skyscraper",
+      "snail",
+      "snake",
+      "spider",
+      "squirrel",
+      "streetcar",
+      "sunflower",
+      "sweet_pepper",
+      "table",
+      "tank",
+      "telephone",
+      "television",
+      "tiger",
+      "tractor",
+      "train",
+      "trout",
+      "tulip",
+      "turtle",
+      "wardrobe",
+      "whale",
+      "willow_tree",
+      "wolf",
+      "woman",
+      "worm"
+    ],
+    "model": "se",
+    "epochs": 2,
+    "batch_size": 40,
+    "seed": 42,
+    "smoke": true,
+    "amp": true,
+    "lr": 0.1,
+    "momentum": 0.9,
+    "weight_decay": 0.0005,
+    "patience": 0,
+    "num_workers": 0,
+    "data": "D:\\学习资料 信息\\课内\\当代人工智能\\LAB3\\CIFAR10_HW3\\data",
+    "data_fingerprint": "3df3564b920717cb6b97ef7679f0a77f"
+  },
+  "error_examples": [
+    {
+      "test_index": 0,
+      "true": "apple",
+      "predicted": "cloud",
+      "confidence": 0.019786659628152847
+    },
+    {
+      "test_index": 1,
+      "true": "apple",
+      "predicted": "orange",
+      "confidence": 0.1097673624753952
+    },
+    {
+      "test_index": 2,
+      "true": "apple",
+      "predicted": "otter",
+      "confidence": 0.01687632128596306
+    },
+    {
+      "test_index": 3,
+      "true": "apple",
+      "predicted": "chair",
+      "confidence": 0.01747822016477585
+    },
+    {
+      "test_index": 4,
+      "true": "aquarium_fish",
+      "predicted": "snail",
+      "confidence": 0.02848401851952076
+    },
+    {
+      "test_index": 5,
+      "true": "aquarium_fish",
+      "predicted": "apple",
+      "confidence": 0.2775004804134369
+    },
+    {
+      "test_index": 6,
+      "true": "aquarium_fish",
+      "predicted": "seal",
+      "confidence": 0.01816950924694538
+    },
+    {
+      "test_index": 7,
+      "true": "aquarium_fish",
+      "predicted": "sunflower",
+      "confidence": 0.05018828436732292
+    },
+    {
+      "test_index": 8,
+      "true": "baby",
+      "predicted": "otter",
+      "confidence": 0.018653376027941704
+    }
+  ]
+}

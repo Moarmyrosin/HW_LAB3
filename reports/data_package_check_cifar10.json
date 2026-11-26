@@ -1,0 +1,9 @@
+{
+  "archive": "D:\\学习资料 信息\\课内\\当代人工智能\\LAB3\\CIFAR10_HW3\\data\\cifar-10-python.tar.gz",
+  "exists": true,
+  "expected_md5": "c58f30108f718f92721af3b95e74349a",
+  "dataset": "cifar10",
+  "actual_md5": "c58f30108f718f92721af3b95e74349a",
+  "valid": true,
+  "reason": "校验通过"
+}

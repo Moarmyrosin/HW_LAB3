@@ -1,0 +1,57 @@
+{
+  "source": "synthetic only",
+  "device": "cuda",
+  "results": {
+    "cnn": {
+      "output_shape": [
+        1,
+        10
+      ],
+      "resume_weights_identical": true,
+      "resume_metrics_identical": true,
+      "scheduler_scaler_early_stop_state_equal": true,
+      "reject_smoke_formal_mismatch": true,
+      "gradcam_feature_shape": [
+        1,
+        128,
+        8,
+        8
+      ],
+      "parameters": 94986
+    },
+    "resnet18": {
+      "output_shape": [
+        1,
+        10
+      ],
+      "resume_weights_identical": true,
+      "resume_metrics_identical": true,
+      "scheduler_scaler_early_stop_state_equal": true,
+      "reject_smoke_formal_mismatch": true,
+      "gradcam_feature_shape": [
+        1,
+        512,
+        4,
+        4
+      ],
+      "parameters": 11173962
+    },
+    "se": {
+      "output_shape": [
+        1,
+        10
+      ],
+      "resume_weights_identical": true,
+      "resume_metrics_identical": true,
+      "scheduler_scaler_early_stop_state_equal": true,
+      "reject_smoke_formal_mismatch": true,
+      "gradcam_feature_shape": [
+        1,
+        512,
+        4,
+        4
+      ],
+      "parameters": 11263042
+    }
+  }
+}

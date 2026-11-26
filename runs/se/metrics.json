@@ -1,0 +1,209 @@
+{
+  "smoke": false,
+  "source": "official cifar10",
+  "dataset": "cifar10",
+  "model": "se",
+  "run_id": "c0c0e44b-1ae9-45b1-9de1-e6b374ea1a15",
+  "checkpoint": "D:\\学习资料 信息\\课内\\当代人工智能\\LAB3\\CIFAR10_HW3\\runs\\se\\best.pt",
+  "checkpoint_epoch": 28,
+  "accuracy": 0.9329,
+  "loss": 0.2267078125,
+  "samples": 10000,
+  "classes": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ],
+  "per_class_accuracy": [
+    0.937,
+    0.979,
+    0.89,
+    0.867,
+    0.946,
+    0.878,
+    0.963,
+    0.955,
+    0.96,
+    0.954
+  ],
+  "report": {
+    "airplane": {
+      "precision": 0.937,
+      "recall": 0.937,
+      "f1-score": 0.937,
+      "support": 1000.0
+    },
+    "automobile": {
+      "precision": 0.9635826771653543,
+      "recall": 0.979,
+      "f1-score": 0.9712301587301587,
+      "support": 1000.0
+    },
+    "bird": {
+      "precision": 0.9194214876033058,
+      "recall": 0.89,
+      "f1-score": 0.9044715447154471,
+      "support": 1000.0
+    },
+    "cat": {
+      "precision": 0.8541871921182266,
+      "recall": 0.867,
+      "f1-score": 0.860545905707196,
+      "support": 1000.0
+    },
+    "deer": {
+      "precision": 0.9193391642371235,
+      "recall": 0.946,
+      "f1-score": 0.9324790537210449,
+      "support": 1000.0
+    },
+    "dog": {
+      "precision": 0.9032921810699589,
+      "recall": 0.878,
+      "f1-score": 0.8904665314401623,
+      "support": 1000.0
+    },
+    "frog": {
+      "precision": 0.9404296875,
+      "recall": 0.963,
+      "f1-score": 0.9515810276679841,
+      "support": 1000.0
+    },
+    "horse": {
+      "precision": 0.9656218402426694,
+      "recall": 0.955,
+      "f1-score": 0.9602815485168427,
+      "support": 1000.0
+    },
+    "ship": {
+      "precision": 0.960960960960961,
+      "recall": 0.96,
+      "f1-score": 0.9604802401200601,
+      "support": 1000.0
+    },
+    "truck": {
+      "precision": 0.9655870445344129,
+      "recall": 0.954,
+      "f1-score": 0.959758551307847,
+      "support": 1000.0
+    },
+    "accuracy": 0.9329,
+    "macro avg": {
+      "precision": 0.9329422235432012,
+      "recall": 0.9329000000000001,
+      "f1-score": 0.9328294561926741,
+      "support": 10000.0
+    },
+    "weighted avg": {
+      "precision": 0.9329422235432013,
+      "recall": 0.9329,
+      "f1-score": 0.9328294561926741,
+      "support": 10000.0
+    }
+  },
+  "parameters": 11263042,
+  "best_validation": 0.9396,
+  "epochs_completed": 30,
+  "epochs_planned": 30,
+  "training_seconds": 910.4267354999938,
+  "config": {
+    "dataset": "cifar10",
+    "classes": [
+      "airplane",
+      "automobile",
+      "bird",
+      "cat",
+      "deer",
+      "dog",
+      "frog",
+      "horse",
+      "ship",
+      "truck"
+    ],
+    "model": "se",
+    "epochs": 30,
+    "batch_size": 128,
+    "seed": 42,
+    "smoke": false,
+    "amp": true,
+    "lr": 0.1,
+    "momentum": 0.9,
+    "weight_decay": 0.0005,
+    "patience": 0,
+    "num_workers": 0,
+    "data": "D:\\学习资料 信息\\课内\\当代人工智能\\LAB3\\CIFAR10_HW3\\data",
+    "data_fingerprint": "194e08f1c1f4e5ae6c93fe58a901f620"
+  },
+  "error_examples": [
+    {
+      "test_index": 15,
+      "true": "ship",
+      "predicted": "frog",
+      "confidence": 0.6726474761962891,
+      "official_test_index": 15
+    },
+    {
+      "test_index": 25,
+      "true": "bird",
+      "predicted": "dog",
+      "confidence": 0.6627086997032166,
+      "official_test_index": 25
+    },
+    {
+      "test_index": 35,
+      "true": "bird",
+      "predicted": "cat",
+      "confidence": 0.8123347163200378,
+      "official_test_index": 35
+    },
+    {
+      "test_index": 37,
+      "true": "automobile",
+      "predicted": "truck",
+      "confidence": 0.6364024877548218,
+      "official_test_index": 37
+    },
+    {
+      "test_index": 52,
+      "true": "airplane",
+      "predicted": "cat",
+      "confidence": 0.7248996496200562,
+      "official_test_index": 52
+    },
+    {
+      "test_index": 58,
+      "true": "deer",
+      "predicted": "dog",
+      "confidence": 0.9203968048095703,
+      "official_test_index": 58
+    },
+    {
+      "test_index": 61,
+      "true": "cat",
+      "predicted": "dog",
+      "confidence": 0.6842380166053772,
+      "official_test_index": 61
+    },
+    {
+      "test_index": 78,
+      "true": "cat",
+      "predicted": "dog",
+      "confidence": 0.7750641703605652,
+      "official_test_index": 78
+    },
+    {
+      "test_index": 118,
+      "true": "bird",
+      "predicted": "frog",
+      "confidence": 0.9064178466796875,
+      "official_test_index": 118
+    }
+  ]
+}
