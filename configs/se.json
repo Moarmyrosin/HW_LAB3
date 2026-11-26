@@ -1,0 +1,10 @@
+{
+  "model": "se",
+  "epochs": 30,
+  "batch_size": 128,
+  "seed": 42,
+  "optimizer": "SGD",
+  "lr": 0.1,
+  "momentum": 0.9,
+  "weight_decay": 0.0005
+}
